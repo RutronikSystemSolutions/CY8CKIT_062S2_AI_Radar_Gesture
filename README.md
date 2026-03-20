@@ -6,6 +6,10 @@ The project streams data from the radar sensor through USB to a Windows C# GUI.
 
 The GUI collects the raw data, apply for signal processing on it (see application note) and displays it on the screen.
 
+```
+To detect correct gestures, use the same orientation for the board as below (USB ports facing down).
+```
+
 ## Requirements
 
 - [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.6 or later (tested with v3.6)
