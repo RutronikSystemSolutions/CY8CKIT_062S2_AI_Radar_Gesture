@@ -10,6 +10,8 @@ The GUI collects the raw data, apply for signal processing on it (see applicatio
 To detect correct gestures, use the same orientation for the board as below (USB ports facing down).
 ```
 
+<img src="images/windows_gui.png" style="zoom:15%;" />
+
 ## Requirements
 
 - [ModusToolbox&trade;](https://www.infineon.com/modustoolbox) v3.6 or later (tested with v3.6)
@@ -18,12 +20,15 @@ To detect correct gestures, use the same orientation for the board as below (USB
 - Programming language C#
 - [CY8CKIT-062S2-AI](https://www.rutronik24.fr/produit/infineon/cy8ckit062s2ai/24290171.html)
 
-<img src="images/cy8ckit_062s2_ai.png" style="zoom:50%;" />
-<img src="images/windows_gui.png" style="zoom:50%;" />
+<img src="images/cy8ckit_062s2_ai.png" style="zoom:15%;" />
 
 ## Supported kits (make variable 'TARGET')
 
 - [CY8CKIT-062S2-AI](https://www.infineon.com/evaluation-board/CY8CKIT-062S2-AI)
+
+## Supported toolchains (make variable 'TOOLCHAIN')
+
+- GNU Arm&reg; Embedded Compiler v11.3.1 (`GCC_ARM`) - Default value of `TOOLCHAIN`
 
 ## Hardware setup
 
